@@ -58,7 +58,7 @@ FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
 SHORTLINK_API = environ.get("SHORTLINK_API", "")
-WELCOME_TEXT = environ.get("WELCOME_TEXT", "Welcome to {title} group! , REQUEST MOVIES HERE 🤙🏻)
+WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
                            
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
